@@ -31,5 +31,7 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class,'index'])->name('home');
 Route::get('/service', [HomeController::class,'service']);
 Route::get('/about', [HomeController::class,'about']);
-Route::get('/projects', [HomeController::class,'projects']);
+Route::get('service/project', [HomeController::class,'projects']);
+Route::get('/testimonial', [HomeController::class,'testimonial']);
+Route::get('/contact', [HomeController::class,'contact']);
 

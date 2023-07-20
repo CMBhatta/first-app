@@ -20,4 +20,10 @@ class HomeController extends Controller
     public function projects(){
         return view('projects');
     }
+    public function testimonial(){
+        return view('testimonial');
+    }
+    public function contact(){
+        return view('contact');
+    }
 }
