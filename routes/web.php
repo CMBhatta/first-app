@@ -29,7 +29,7 @@ Route::get('/', function () {
 // // routes/web.php for homepage
 
 Route::get('/home', [HomeController::class,'index'])->name('home');
-Route::get('/service', [HomeController::class,'service']);
+Route::get('about/service', [HomeController::class,'service']);
 Route::get('/about', [HomeController::class,'about']);
 Route::get('service/project', [HomeController::class,'projects']);
 Route::get('/testimonial', [HomeController::class,'testimonial']);

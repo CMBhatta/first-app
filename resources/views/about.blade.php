@@ -88,7 +88,7 @@ sub_page
           </h5>
           <div class="post_box">
             <div class="img-box">
-              <img src="images/instagram.jpg" alt="">
+              <img src="{{('images/instagram.jpg')}}" alt="">
             </div>
             <div class="img-box">
               <img src="images/instagram.jpg" alt="">

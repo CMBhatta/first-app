@@ -21,7 +21,7 @@ sub_page
           <div class="col-md-6 col-lg-3">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s1.png" alt="">
+                <img src="{{url('images/s1.png')}}" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -42,7 +42,7 @@ sub_page
           <div class="col-md-6 col-lg-3">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s2.png" alt="">
+                <img src="{{url('images/s2.png')}}" alt="">
               </div>
               <div class="detail-box">
                 <h5>

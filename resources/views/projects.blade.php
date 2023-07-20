@@ -50,7 +50,7 @@ sub_page
           <div class="item reconstruction">
             <div class="box">
               <div class="img-box">
-                <img src="images/project2.jpg" alt="" />
+                <img src="{{url('images/project2.jpg')}}" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -69,7 +69,7 @@ sub_page
           <div class="item repair">
             <div class="box">
               <div class="img-box">
-                <img src="images/project1.jpg" alt="" />
+                    <img src="{{url('images/project1.jpg')}}" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -88,7 +88,7 @@ sub_page
           <div class="item residential">
             <div class="box">
               <div class="img-box">
-                <img src="images/project1.jpg" alt="" />
+                <img src="{{url('images/project1.jpg')}}" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -107,7 +107,7 @@ sub_page
           <div class="item styling">
             <div class="box">
               <div class="img-box">
-                <img src="images/project1.jpg" alt="" />
+                <img src="{{url('images/project1.jpg')}}" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
